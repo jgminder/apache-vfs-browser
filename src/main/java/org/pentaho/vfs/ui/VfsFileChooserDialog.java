@@ -281,6 +281,7 @@ public class VfsFileChooserDialog implements SelectionListener, MouseListener, V
           continue;
         }
         customNames.add( panel.getVfsSchemeDisplayText() );
+        panel.update();
       }
     }
 

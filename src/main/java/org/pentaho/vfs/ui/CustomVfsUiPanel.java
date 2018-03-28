@@ -73,4 +73,7 @@ public class CustomVfsUiPanel extends Composite {
     return resolveFile( fileUri, null );
   }
 
+  public void update() {
+
+  }
 }
